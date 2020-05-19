@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const task = document.getElementById('new-task-description');
     li.innerHTML = task.value;
     ul.appendChild(li);
-    
+
     e.preventDefault();
   });
 });
